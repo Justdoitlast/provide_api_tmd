@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 
-DATABASE_URL = """postgresql://agriuser:%s@202.139.197.37:5432/agridb""" % quote("Agri_2020@gbdi")
+DATABASE_URL = """postgresql://postgres:1234@34.172.154.85:5432/postgres""" 
 print(DATABASE_URL)
 engine = create_engine(DATABASE_URL)
 
